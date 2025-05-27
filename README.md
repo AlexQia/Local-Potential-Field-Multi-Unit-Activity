@@ -1,9 +1,9 @@
 # Project Scope
-This repository contains Jupyter notebooks for processing and analyzing electrophysiological data collected from mice during behavioral task. During the task, the mice was either awake or anesthetized and the sound could be played from four different locations. The analysis primarily focuses on Local Field Potential (LFP) and Multi-Unit Activity (MUA) signals. Techniques include spectrogram generation, denoising, dimensionality reduction (PCA), and clustering (KMeans)
+This repository contains Jupyter notebooks for processing and analyzing electrophysiological data collected from mice during behavioral task. During the task, the mice was either awake or anesthetized and the sound could be played from four different locations. The analysis primarily focuses on Local Field Potential (LFP) and Multi-Unit Activity (MUA) signals. Techniques include spectrogram generation, denoising, dimensionality reduction (PCA), and clustering (KMeans).
 
 
 
-The goal is to extract meaningful neural representations from raw LFP and MUA signals using time-frequency and statistical methods. The analysis supports behavioral neuroscience experiments aiming to understand sensory processing and neural dynamics
+The goal is to extract meaningful neural representations from raw LFP and MUA signals using time-frequency and statistical methods. The analysis supports behavioral neuroscience experiments aiming to understand sensory processing and neural dynamics.
 
 ## Repository Contents
 
