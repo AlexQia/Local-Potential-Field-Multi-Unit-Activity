@@ -56,7 +56,7 @@ The difference in LFPs between awake and anesthetized states arises from the fun
 
 **Awake**: Neural activity is more desynchronized, with higher-frequency, lower-amplitude fluctuations. That's why awake LFPs look “noisier” or more broadband and with smaller deflections. Awake animals are constantly processing sensory input, leading to continuous, irregular synaptic activity. Awake LFPs contain more spontaneous activity, making it harder to isolate evoked features.
 
-![Repository Contents](Organized_awake.png)
+![Repository Contents](organized_awake.png)
 **Fig. 6** | Plots of Mouse 622's LFPs when the mouse was awake under clean background conditions with Target 1 presented
 <br><br>
 ![Repository Contents](Organized_anesthetized.png)
