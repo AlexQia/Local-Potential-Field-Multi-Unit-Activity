@@ -14,7 +14,7 @@ The LFP from Mouse 622 is a Numpy Array with the shape of (4968346, 32). 32 indi
 
 ![Repository Contents](Spectrogram_Denoised_Signal.png)
 **Fig. 1** | Spectrogram GUI displaying the LFP signals from Mouse 622
-<br><br>
+<br><br><br>
 `(Unfilter & Filtered)LFP & Spectrogram.ipynb`
 <br>
 The upper panel displays both the original signal for the selected channel and the signal which is denoised and smoothed. The lower panel shows the spectrogram of the denoised signal.  
@@ -31,22 +31,21 @@ The local field potentials from Mouse 622 were epoched and averaged while the mo
 The denoised local field potentials from Mouse 622 were epoched and averaged while the mouse was anesthetized under clean background conditions, relative to four different angles from which the Target 1 cue was presented.
 ![Repository Contents](Epoch_2.png)
 **Fig. 4** | Denoised epoched local field potentials (LFPs) corresponding to four different sound source locations
-<br><br>
+<br><br><br>
 
 
 `PCA_and_KMeans.ipynb`
 <br>
-When Mouse 622 was anesthetized under clean background conditions and target 1 was presented. Principal Component Analysis (PCA) was empolyed to reduce the dimensionality of the extracted features and to differentiate the LFPs corresponding to Angle 1 and LFPs of Angle 4. Classification accuracy was estimated using K-means clustering as more channels were counted. For each angle, each channel contains ten epochs. As more channels counted, the shape of data matrix from either angle 1 or angle 4 is always in the form of 
+When Mouse 622 was anesthetized under clean background conditions and target 1 was presented. Principal Component Analysis (PCA) was empolyed to reduce the dimensionality of the extracted features and to differentiate the LFPs corresponding to Angle 1 and LFPs of Angle 4. Classification accuracy was estimated using K-means clustering as more channels were counted. For each angle, each channel contains ten epochs. As more channels counted, the shape of data matrix from either angle 1 or angle 4 is always in the form of `ℝⁿˢᵃᵐᵖˡᵉˢ × mᶠᵉᵃᵗᵘʳᵉˢ`
 
-$$
-\mathbb{R}^{n_{\text{samples}} \times m_{\text{features}}}
-$$
+
+
 To quantify differences between signals, additional channels were incorporated to enrich the feature representation, while the sample size was held constant at 
 n=10 to ensure consistency. If you change the number of samples, you're not just comparing signal content — you're also comparing dataset size, which introduces confounds.
 
 ![Repository Contents](lfp_pca.png)
 **Fig. 5** | K-means classification accuracy as a function of the number of channels included
-<br><br>
+<br><br><br>
 
 `Organized_Trialinfo_Analysis.ipynb`
 <br>
@@ -58,7 +57,7 @@ The difference in LFPs between awake and anesthetized states arises from the fun
 
 ![Repository Contents](organized_awake.png)
 **Fig. 6** | Plots of Mouse 622's LFPs when the mouse was awake under clean background conditions with Target 1 presented
-<br><br>
+<br><br><br>
 ![Repository Contents](Organized_anesthetized.png)
 **Fig. 7** | Plots of Mouse 622's LFPs when the mouse was anesthetized under clean background conditions with Target 1 presented
 
