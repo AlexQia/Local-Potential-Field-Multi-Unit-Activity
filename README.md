@@ -14,13 +14,13 @@ The LFP from Mouse 622 is a Numpy Array with the shape of (4968346, 32). 32 indi
 
 ![Repository Contents](Spectrogram_Denoised_Signal.png)
 **Fig. 1** | Spectrogram GUI displaying the LFP signals from Mouse 622
-<br><br><br>
+<br><br><br><br>
 `(Unfilter & Filtered)LFP & Spectrogram.ipynb`
 <br>
 The upper panel displays both the original signal for the selected channel and the signal which is denoised and smoothed. The lower panel shows the spectrogram of the denoised signal.  
 ![Repository Contents](unfiltered_filtered_lfp_spectrogram.png)
 **Fig. 2** | GUI displaying the original and denoised signals, along with the spectrogram of the denoised signal from Mouse 622
-<br><br>
+<br><br><br><br>
 
 `Epoch_based_on_four_angle&PCA.ipynb`
 <br>
