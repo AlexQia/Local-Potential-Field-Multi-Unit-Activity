@@ -88,6 +88,7 @@ When Mouse 622 was awake under clean background conditions and target 1 was pres
 
 To quantify differences between signals, additional channels were incorporated to enrich the feature representation, while the sample size was held constant at 
 n=10 to ensure consistency. If you change the number of samples, you're not just comparing signal content — you're also comparing dataset size, which introduces confounds.
+<br>
 ![The Analysis of Multi-Unit Activity](cluster_accuracy.png)
 **Fig. 11** | K-means classification accuracy as a function of the number of channels included
 
