@@ -27,7 +27,8 @@ The upper panel displays both the original signal for the selected channel and t
 The local field potentials from Mouse 622 were epoched and averaged while the mouse was anesthetized under clean background conditions, relative to four different angles from which the Target 1 cue was presented.
 ![Repository Contents](Epoch_1.png)
 **Fig. 3** | Epoched local field potentials (LFPs) corresponding to four different sound source locations
-<br><br>
+
+<br><br><br>
 The denoised local field potentials from Mouse 622 were epoched and averaged while the mouse was anesthetized under clean background conditions, relative to four different angles from which the Target 1 cue was presented.
 ![Repository Contents](Epoch_2.png)
 **Fig. 4** | Denoised epoched local field potentials (LFPs) corresponding to four different sound source locations
